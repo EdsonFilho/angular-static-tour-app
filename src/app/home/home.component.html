@@ -1,0 +1,13 @@
+<div>
+  <mat-card>
+    <mat-card-content>Seja bem vindo ao tour da igreja.</mat-card-content>
+  </mat-card>
+</div>
+<div style="width: 100%; text-align: center;">
+  <mat-button-toggle-group name="ingredients" aria-label="Ingredients" multiple>
+    <mat-button-toggle (click)="soundPlayer.playAudio()"><mat-icon>play_arrow</mat-icon></mat-button-toggle>
+    <mat-button-toggle (click)="soundPlayer.pauseAudio()"><mat-icon>pause</mat-icon></mat-button-toggle>
+    <mat-button-toggle (click)="soundPlayer.stopAudio()"><mat-icon>stop</mat-icon></mat-button-toggle>
+  </mat-button-toggle-group>
+</div>
+  

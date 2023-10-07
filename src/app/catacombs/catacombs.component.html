@@ -1,0 +1,15 @@
+<div>
+    <h2>Catacombs Page</h2>
+    <mat-card>
+      <mat-card-content>The original building was constructed in the 17th century in Guia.  Highlights include the altarpiece with the image of the church’s patron (18th century),  the altarpiece in the chancel, and some the images.</mat-card-content>
+    </mat-card>
+</div>
+<div style="width: 100%; text-align: center;">
+  <mat-button-toggle-group name="ingredients" aria-label="Ingredients" multiple>
+    <mat-button-toggle (click)="soundPlayer.playAudio()"><mat-icon>play_arrow</mat-icon></mat-button-toggle>
+    <mat-button-toggle (click)="soundPlayer.pauseAudio()"><mat-icon>pause</mat-icon></mat-button-toggle>
+    <mat-button-toggle (click)="soundPlayer.stopAudio()"><mat-icon>stop</mat-icon></mat-button-toggle>
+  </mat-button-toggle-group>
+</div>
+
+  
